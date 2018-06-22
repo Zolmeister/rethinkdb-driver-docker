@@ -1,4 +1,4 @@
-FROM rethinkdb:2.3.5
+FROM rethinkdb:2.3.6
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends python-pip python2.7 python2.7-minimal python-pkg-resources \
